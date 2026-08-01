@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Kartickeeyaan M, a B.Tech AI & ML student based in Chennai, India. Specializing in AI-driven solutions, Python development, and intelligent systems.">
+  <title>Kartickeeyaan M | AI/ML Engineer & Full-Stack Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+  <!-- Custom radial cursor glow background -->
+  <div class="custom-cursor" id="cursor-glow"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="navbar" id="header-nav">
+    <a href="#hero" class="nav-logo">
+      KARTICKEEYAAN <span>M</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+    <canvas id="neural-canvas" class="hero-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge">AI & Machine Learning</div>
+      <h1 class="hero-title">KARTICKEEYAAN M</h1>
+      <div class="hero-role-wrapper">
+        <span class="hero-role" id="typewriter-role">AI & ML Engineer</span>
+      </div>
+      <p class="hero-tagline">Building intelligent systems at the intersection of AI and real-world impact</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          View My Projects
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        <a href="https://drive.google.com/file/d/1kGr7EeWFhC5O0-AsgdVWX49LQPTL4N5L/view?usp=sharing" target="_blank" class="btn btn-secondary">
+          Download Resume
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section reveal">
+    <div class="section-header">
+      <span class="section-subtitle">Introduction</span>
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I am a B.Tech Artificial Intelligence and Machine Learning student at <strong>Rajalakshmi Engineering College</strong> (Chennai, India), graduation timeline spanning August 2023 to May 2027. Currently maintaining an academic score of <strong>CGPA 8.22/10</strong>, my interests lie deeply inside AI-driven solutions and Python-based development.
+        </p>
+        <p>
+          I'm passionate about engineering smart computational systems that resolve authentic, complicated issues. I aim to construct clean, production-ready architectures that fuse backend utility with data engineering and intelligence.
+        </p>
+      </div>
+      <div class="about-card">
+        <div class="info-row">
+          <div class="info-item">
+            <div class="info-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="info-value">Chennai, India</div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div class="info-value"><a href="mailto:kartickeeyaan@gmail.com">kartickeeyaan@gmail.com</a></div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="info-value">+91-8148489510</div>
+          </div>
+        </div>
+        <div class="social-row">
+          <a href="https://linkedin.com/in/kartickeeyaan" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-btn" aria-label="LinkedIn Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://github.com/Kartickeeyaan" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="https://leetcode.com/u/Kartickeeyaan/" target="_blank" rel="noopener noreferrer" class="social-btn social-btn-logo leetcode-btn" aria-label="LeetCode Profile">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M6 18.5l-1.9-2.2a5.4 5.4 0 0 1 0-7l1.9-2.2" stroke="#111111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.1 6.6l2.7 2.2" stroke="#FFA116" stroke-width="3.4" stroke-linecap="round"/>
+              <path d="M12.1 17.4l2.7-2.2" stroke="#FFA116" stroke-width="3.4" stroke-linecap="round"/>
+              <path d="M11.4 12h8" stroke="#B8B8B8" stroke-width="3.4" stroke-linecap="round"/>
+            </svg>
+          </a>
+          <a href="https://www.geeksforgeeks.org/profile/kartickeeyaan" target="_blank" rel="noopener noreferrer" class="social-btn social-btn-logo gfg-btn" aria-label="GeeksforGeeks Profile">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M21.45 14.315c-.143.28-.334.532-.565.745a3.691 3.691 0 0 1-1.104.695 4.51 4.51 0 0 1-3.116-.016 3.79 3.79 0 0 1-2.135-2.078 3.571 3.571 0 0 1-.13-.353h7.418a4.26 4.26 0 0 1-.368 1.008zm-11.99-.654a3.793 3.793 0 0 1-2.134 2.078 4.51 4.51 0 0 1-3.117.016 3.7 3.7 0 0 1-1.104-.695 2.652 2.652 0 0 1-.564-.745 4.221 4.221 0 0 1-.368-1.006H9.59c-.038.12-.08.238-.13.352zm14.501-1.758a3.849 3.849 0 0 0-.082-.475l-9.634-.008a3.932 3.932 0 0 1 1.143-2.348c.363-.35.79-.625 1.26-.809a3.97 3.97 0 0 1 4.484.957l1.521-1.49a5.7 5.7 0 0 0-1.922-1.357 6.283 6.283 0 0 0-2.544-.49 6.35 6.35 0 0 0-2.405.457 6.007 6.007 0 0 0-1.963 1.276 6.142 6.142 0 0 0-1.325 1.94 5.862 5.862 0 0 0-.466 1.864h-.063a5.857 5.857 0 0 0-.467-1.865 6.13 6.13 0 0 0-1.325-1.939A6 6 0 0 0 8.21 6.34a6.698 6.698 0 0 0-4.949.031A5.708 5.708 0 0 0 1.34 7.73l1.52 1.49a4.166 4.166 0 0 1 4.484-.958c.47.184.898.46 1.26.81.368.36.66.792.859 1.268.146.344.242.708.285 1.08l-9.635.008A4.714 4.714 0 0 0 0 12.457a6.493 6.493 0 0 0 .345 2.127 4.927 4.927 0 0 0 1.08 1.783c.528.56 1.17 1 1.88 1.293a6.454 6.454 0 0 0 2.504.457c.824.005 1.64-.15 2.404-.457a5.986 5.986 0 0 0 1.964-1.277 6.116 6.116 0 0 0 1.686-3.076h.273a6.13 6.13 0 0 0 1.686 3.077 5.99 5.99 0 0 0 1.964 1.276 6.345 6.345 0 0 0 2.405.457 6.45 6.45 0 0 0 2.502-.457 5.42 5.42 0 0 0 1.882-1.293 4.928 4.928 0 0 0 1.08-1.783A6.52 6.52 0 0 0 24 12.457a4.757 4.757 0 0 0-.039-.554z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section reveal">
+    <div class="section-header">
+      <span class="section-subtitle">Proficiencies</span>
+      <h2 class="section-title">Technical Skills</h2>
+    </div>
+    
+    <!-- Tab navigation -->
+    <div class="skills-tabs">
+      <button class="tab-btn active" data-tab="languages-panel">Languages</button>
+      <button class="tab-btn" data-tab="ai-panel">AI & ML</button>
+      <button class="tab-btn" data-tab="web-panel">Web Development</button>
+      <button class="tab-btn" data-tab="tools-panel">Tools & Libraries</button>
+      <button class="tab-btn" data-tab="db-panel">Databases</button>
+    </div>
+
+    <!-- Skills content display panel -->
+    <div class="skills-container">
+      <!-- LANGUAGES PANEL -->
+      <div class="tab-panel active" id="languages-panel">
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6L2 12l6 6"/></svg>
+          </div>
+          <span class="skill-card-name">Python</span>
+          <span class="skill-card-detail">Libraries & APIs</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 20l4-16m4 4l4 4-4 4M6 8l-4 4 4 4"/></svg>
+          </div>
+          <span class="skill-card-name">Java</span>
+          <span class="skill-card-detail">OOP & Swing Core</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2zM6 4h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+          </div>
+          <span class="skill-card-name">JavaScript</span>
+          <span class="skill-card-detail">DOM & Logic</span>
+        </div>
+      </div>
+
+      <!-- AI / ML PANEL -->
+      <div class="tab-panel" id="ai-panel">
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <span class="skill-card-name">Scikit-learn</span>
+          <span class="skill-card-detail">Machine Learning</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <span class="skill-card-name">TensorFlow</span>
+          <span class="skill-card-detail">Neural Networks</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <span class="skill-card-name">NLP</span>
+          <span class="skill-card-detail">Text & Linguistics</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <span class="skill-card-name">PyTorch</span>
+          <span class="skill-card-detail">Deep Learning</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
+          </div>
+          <span class="skill-card-name">OpenCV</span>
+          <span class="skill-card-detail">Image Processing</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+          </div>
+          <span class="skill-card-name">Computer Vision</span>
+          <span class="skill-card-detail">Spatial Features</span>
+        </div>
+      </div>
+
+      <!-- WEB PANEL -->
+      <div class="tab-panel" id="web-panel">
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+          </div>
+          <span class="skill-card-name">HTML / CSS</span>
+          <span class="skill-card-detail">Layouts & Animation</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <span class="skill-card-name">REST API Design</span>
+          <span class="skill-card-detail">FastAPI & Flask</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+          </div>
+          <span class="skill-card-name">Node.js</span>
+          <span class="skill-card-detail">Backend Runtimes</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <span class="skill-card-name">Express.js</span>
+          <span class="skill-card-detail">API Routing</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <span class="skill-card-name">React</span>
+          <span class="skill-card-detail">UI Interfaces</span>
+        </div>
+      </div>
+
+      <!-- TOOLS PANEL -->
+      <div class="tab-panel" id="tools-panel">
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+          </div>
+          <span class="skill-card-name">Pandas</span>
+          <span class="skill-card-detail">Data Analysis</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+          </div>
+          <span class="skill-card-name">NumPy</span>
+          <span class="skill-card-detail">Vector Algebra</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18H18V6H6V18Z"/><path d="M9 9H15V15H9V9Z"/></svg>
+          </div>
+          <span class="skill-card-name">Git</span>
+          <span class="skill-card-detail">Version Control</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-6M9 17v-3M15 17v-3M18 20V4M6 20V10"/></svg>
+          </div>
+          <span class="skill-card-name">Matplotlib</span>
+          <span class="skill-card-detail">Visualization</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+          </div>
+          <span class="skill-card-name">Docker</span>
+          <span class="skill-card-detail">Container Scaling</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <span class="skill-card-name">Power BI</span>
+          <span class="skill-card-detail">Dashboards</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+          </div>
+          <span class="skill-card-name">Tableau</span>
+          <span class="skill-card-detail">Visual Reporting</span>
+        </div>
+      </div>
+
+      <!-- DATABASES PANEL -->
+      <div class="tab-panel" id="db-panel">
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+          </div>
+          <span class="skill-card-name">MySQL</span>
+          <span class="skill-card-detail">Relational Queries</span>
+        </div>
+        <div class="skill-card-interactive">
+          <canvas class="skill-card-canvas"></canvas>
+          <div class="skill-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+          </div>
+          <span class="skill-card-name">MongoDB</span>
+          <span class="skill-card-detail">NoSQL Documents</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section reveal">
+    <div class="section-header">
+      <span class="section-subtitle">Portfolio</span>
+      <h2 class="section-title">Technical Projects</h2>
+    </div>
+    
+    <div class="projects-grid">
+      
+      <!-- TrustED CARD -->
+      <div class="project-card-container">
+        <div class="project-card">
+          <!-- Card Front -->
+          <div class="card-face card-front">
+            <div class="project-icon-wrapper">
+              <div class="project-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="project-card-title">TrustED</h3>
+              <p class="project-card-desc">Academic Verification Platform built to secure educational credentials against forgery using a hybrid OCR, blockchain hashing, and anomaly detection network.</p>
+            </div>
+            <div class="project-hint"></div>
+          </div>
+          <!-- Card Back -->
+          <div class="card-face card-back">
+            <div class="project-details">
+              <h4 class="project-details-title">TrustED - Verification</h4>
+              <ul class="project-bullet-list">
+                <li>Automated certificate verification pipeline using OCR + hash-based integrity checks.</li>
+                <li>RESTful services in Node.js designed for large-scale, automated certificate management.</li>
+                <li>Incorporates QR code verification alongside AI-assisted anomaly detection to flag certificate tampering.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag cyan-tag">Python</span>
+                <span class="tech-tag cyan-tag">OCR</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Blockchain</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Kartickeeyaan" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RAGBox -->
+      <div class="project-card-container">
+        <div class="project-card">
+          <!-- Card Front -->
+          <div class="card-face card-front">
+            <div class="project-icon-wrapper">
+              <div class="project-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="project-card-title">RAGBox</h3>
+              <p class="project-card-desc">A local RAG-powered chat platform that lets users upload documents, ask questions, and get cited answers using FastAPI, PostgreSQL, Ollama, and FAISS.</p>
+            </div>
+            <div class="project-hint"></div>
+          </div>
+          <!-- Card Back -->
+          <div class="card-face card-back">
+            <div class="project-details">
+              <h4 class="project-details-title">RAGBox</h4>
+              <ul class="project-bullet-list">
+                <li>Secure local RAG chat with JWT login and protected sessions.</li>
+                <li>Upload PDF, DOCX, and TXT files for document-based answers with citations.</li>
+                <li>FastAPI, Ollama, FAISS, and PostgreSQL power the full self-hosted workflow.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag cyan-tag">Python</span>
+                <span class="tech-tag cyan-tag">Ollama</span>
+                <span class="tech-tag cyan-tag">FAISS</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">FastAPI</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/kartickeeyaan-m/RAGBox" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SENTIMENT ANALYSIS API CARD -->
+      <div class="project-card-container">
+        <div class="project-card">
+          <!-- Card Front -->
+          <div class="card-face card-front">
+            <div class="project-icon-wrapper">
+              <div class="project-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="project-card-title">Sentiment Analysis API</h3>
+              <p class="project-card-desc">End-to-end NLP classifier model exposing production prediction endpoints, packaged into a microservices format for straightforward cloud scaling.</p>
+            </div>
+            <div class="project-hint"></div>
+          </div>
+          <!-- Card Back -->
+          <div class="card-face card-back">
+            <div class="project-details">
+              <h4 class="project-details-title">Sentiment Analysis API</h4>
+              <ul class="project-bullet-list">
+                <li>End-to-end sentiment classifier (positive/negative) using text TF-IDF vectors + Logistic Regression.</li>
+                <li>Flask REST API containing lightweight prediction endpoints coupled with an interactive web GUI dashboard.</li>
+                <li>Containerized with Docker to achieve stable environment reproducibility.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag cyan-tag">Python</span>
+                <span class="tech-tag cyan-tag">Flask</span>
+                <span class="tech-tag">TF-IDF</span>
+                <span class="tech-tag">Logistic Regression</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Kartickeeyaan" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- UNIVERSITY MANAGEMENT SYSTEM CARD -->
+      <div class="project-card-container">
+        <div class="project-card">
+          <!-- Card Front -->
+          <div class="card-face card-front">
+            <div class="project-icon-wrapper">
+              <div class="project-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2.5 3 6 3s6-1 6-3v-5"></path></svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="project-card-title">University Portal</h3>
+              <p class="project-card-desc">Desktop administrative application supporting comprehensive course, personnel, and billing registry workloads via structured Java Swing interfaces.</p>
+            </div>
+            <div class="project-hint"></div>
+          </div>
+          <!-- Card Back -->
+          <div class="card-face card-back">
+            <div class="project-details">
+              <h4 class="project-details-title">University System</h4>
+              <ul class="project-bullet-list">
+                <li>Automates student, faculty, course, and academic record management.</li>
+                <li>Modules: registration, enrollment, marks, attendance, fees, leave — built using strict OOP guidelines.</li>
+                <li>MySQL + JDBC relational integrations running behind a functional Swing GUI.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag cyan-tag">Java</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JDBC</span>
+                <span class="tech-tag">Swing</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Kartickeeyaan" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXAM HALL ALLOCATOR CARD -->
+      <div class="project-card-container">
+        <div class="project-card">
+          <!-- Card Front -->
+          <div class="card-face card-front">
+            <div class="project-icon-wrapper">
+              <div class="project-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line></svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="project-card-title">Exam Hall Allocator</h3>
+              <p class="project-card-desc">End-to-end seat allocation and staff duties management system designed to optimize exam hall distributions, manage session rules, and provide real-time dashboards and mobile apps.</p>
+            </div>
+            <div class="project-hint"></div>
+          </div>
+          <!-- Card Back -->
+          <div class="card-face card-back">
+            <div class="project-details">
+              <h4 class="project-details-title">Hall Allocator System</h4>
+              <ul class="project-bullet-list">
+                <li>Automated seat allocation engine with database controllers and CSV generators.</li>
+                <li>React SPA web portal featuring room layout previews, seat defect toggles, and rule configurations.</li>
+                <li>Cross-platform Expo/React Native mobile applications for both student seating queries and teacher invigilation tasks.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag cyan-tag">React SPA</span>
+                <span class="tech-tag cyan-tag">React Native</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Expo</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Kartickeeyaan" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAKE REVIEW DETECTOR CARD -->
+      <div class="project-card-container">
+        <div class="project-card">
+          <!-- Card Front -->
+          <div class="card-face card-front">
+            <div class="project-icon-wrapper">
+              <div class="project-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M9 11l2 2 4-4"></path></svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="project-card-title">Fake Review Detector</h3>
+              <p class="project-card-desc">Machine learning system built using NLP techniques and TF-IDF representation to classify product reviews as either fake or genuine in real time.</p>
+            </div>
+            <div class="project-hint"></div>
+          </div>
+          <!-- Card Back -->
+          <div class="card-face card-back">
+            <div class="project-details">
+              <h4 class="project-details-title">Fake Review Detection</h4>
+              <ul class="project-bullet-list">
+                <li>Lightweight Flask web application interface enabling real-time review input and immediate model inference.</li>
+                <li>Custom text preprocessing pipelines including regex cleaning, stopword filtering, and lemmatization.</li>
+                <li>Trained NLP classifier utilizing TF-IDF text vectorization and Scikit-learn Logistic Regression models.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag cyan-tag">Python</span>
+                <span class="tech-tag cyan-tag">NLP</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">TF-IDF</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Kartickeeyaan" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="section reveal">
+    <div class="section-header">
+      <span class="section-subtitle">Chronology</span>
+      <h2 class="section-title">Work Experience</h2>
+    </div>
+    
+    <div class="timeline-container">
+      <div class="timeline-track"></div>
+      <div class="timeline-active-line" id="timeline-active-line"></div>
+      
+      <!-- TRIOS TECHNOLOGIES INTERN -->
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">AI & ML Intern</h3>
+              <div class="timeline-company">Trios Technologies</div>
+            </div>
+            <span class="timeline-date">June 2025 – July 2025</span>
+          </div>
+          <ul class="timeline-bodyul">
+            <li>Studied core theoretical fundamentals of Artificial Intelligence and Machine Learning, with focuses on supervised regression, classification, and Natural Language Processing.</li>
+            <li>Built a Fake Review Detection System using TF-IDF text representations passed into a Logistic Regression classifier model.</li>
+            <li>Applied complete, customized text preprocessing pipelines, covering tokenization, custom regex punctuation cleanups, stopword filtering, and lemmatization.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section id="achievements" class="section reveal">
+    <div class="section-header">
+      <span class="section-subtitle">Recognitions</span>
+      <h2 class="section-title">Achievements</h2>
+    </div>
+    
+    <div class="achievements-grid">
+
+      <!-- DSA ACHIEVEMENT -->
+      <div class="achievement-card">
+        <div class="achievement-icon-wrapper dsa">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.86L12 17.77 5.82 21l1.18-6.86-5-4.87 6.91-1.01L12 2z"></path></svg>
+        </div>
+        <div class="achievement-details">
+          <div class="achievement-stat">
+            <span class="counter dsa-stat" data-target="200">0</span>+
+          </div>
+          <h3 class="achievement-title">DSA Problems Solved</h3>
+          <p class="achievement-desc">Solved 200+ data structures and algorithms problems across coding practice platforms to sharpen problem-solving speed and consistency.</p>
+        </div>
+      </div>
+      
+      <!-- SIH ROUND -->
+      <div class="achievement-card">
+        <div class="achievement-icon-wrapper sih">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+        </div>
+        <div class="achievement-details">
+          <div class="achievement-stat">
+            Top <span class="counter sih-stat" data-target="45">0</span> / <span class="counter sih-stat" data-target="200">0</span>+
+          </div>
+          <h3 class="achievement-title">Smart India Hackathon (SIH)</h3>
+          <p class="achievement-desc">Placed in the Top 45 teams out of 200+ competing entries during the SIH Internal Round selections.</p>
+        </div>
+      </div>
+
+      <!-- XYNTRA HACKATHON -->
+      <div class="achievement-card">
+        <div class="achievement-icon-wrapper">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        </div>
+        <div class="achievement-details">
+          <div class="achievement-stat">
+            <span class="counter xyntra-stat" data-target="36">0</span>-Hr Event
+          </div>
+          <h3 class="achievement-title">Xyntra'25 Hackathon</h3>
+          <p class="achievement-desc">Active participant in a rigorous 36-hour hackathon, executing fast prototype design and software engineering inside a collaborative team.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section reveal">
+    <div class="section-header">
+      <span class="section-subtitle">Inquiries</span>
+      <h2 class="section-title">Get In Touch</h2>
+    </div>
+    
+    <div class="contact-grid">
+      <div class="contact-info-panel">
+        <p class="contact-prompt">
+          Have an interesting project, internship opportunity, or question about AI/ML models? Reach out using the contact details or submit a message directly via the form.
+        </p>
+        
+        <div class="contact-details-list">
+          <!-- Phone Item -->
+          <div class="contact-detail-card">
+            <div class="contact-detail-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="contact-detail-info">
+              <span class="contact-detail-label">Phone</span>
+              <span class="contact-detail-value">+91-8148489510</span>
+            </div>
+          </div>
+          <!-- Email Item -->
+          <div class="contact-detail-card">
+            <div class="contact-detail-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div class="contact-detail-info">
+              <span class="contact-detail-label">Email</span>
+              <span class="contact-detail-value"><a href="mailto:kartickeeyaan@gmail.com">kartickeeyaan@gmail.com</a></span>
+            </div>
+          </div>
+          <!-- Location Item -->
+          <div class="contact-detail-card">
+            <div class="contact-detail-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="contact-detail-info">
+              <span class="contact-detail-label">Location</span>
+              <span class="contact-detail-value">Chennai, India</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-row">
+          <a href="https://linkedin.com/in/kartickeeyaan" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://github.com/Kartickeeyaan" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+        </div>
+      </div>
+      
+      <!-- CONTACT FORM -->
+      <form id="contact-form" class="contact-form" novalidate>
+        <div id="form-status" class="form-status"></div>
+        <div class="form-group">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" id="email" name="email" class="form-input" placeholder="yourname@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" name="message" class="form-input" placeholder="Type your message here..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">
+          Send Message
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-text">&copy; 2026 Kartickeeyaan M. All Rights Reserved. Made with <span>&hearts;</span> in Chennai.</p>
+  </footer>
+
+  <!-- JAVASCRIPT ANIMATIONS & LOGIC -->
+  <script src="script.js?v=3"></script>
+</body>
+</html>
